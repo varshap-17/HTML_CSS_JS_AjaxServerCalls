@@ -1,0 +1,156 @@
+/* uc1 */
+body{
+    margin: 0;
+    height: 100%;
+}
+.header{
+    padding: 15px 0;
+    background-color: aliceblue;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+}
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid green;
+    width: 100%;
+}
+.logo-content-img{
+    border: solid 0px palevioletred;
+}
+.emp-text{
+    display: flex;
+    font: normal normal bold 10px Montserrat;
+    font-family: "Montserrat",sans-serif;
+    letter-spacing: 0px;
+    color: green;
+    text-transform: capitalize;
+}
+*{
+    box-sizing: border-box;
+}
+.error-output{
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+/* uc2 */
+.form-content{
+    min-height: calc(100%-80%);
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+}
+.form{
+    width: 65%;
+    padding: 44px 60px;
+    background: white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px gainsboro;
+    border: 1px solid ghostwhite;
+    border-radius: 8px;
+    opacity: 1;
+}
+.form-head{
+    font: normal normal bold 24px/37px Roboto;
+    letter-spacing: 0px;
+    color: darkcyan;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+.row-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0px solid green;
+}
+.label{
+    min-width: 140px;
+}
+label{
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+}
+.text{
+    font-size: 16px;
+    color: burlywood;
+    opacity: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    resize: vertical;
+}
+/* uc3 */
+.profile-radio-content{
+    display: flex;
+    flex-direction: row;
+}
+.profile-radio-content > label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile{
+    width: 40px;
+    border: 50%;
+    margin-left: 12px;
+}
+/* uc5 */
+select{
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    resize: vertical;
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: peru;
+    background-color: transparent;
+}
+/* uc6 */
+.buttonParent{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.button{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0px;
+    color: peru;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    min-width: 140px;
+    padding: 7px 7px;
+    border: 1px solid palegoldenrod;
+    cursor: pointer;
+}
+.submitButton{
+    border: none;
+    background-color: darkgray;
+    margin-right: 30px;
+}
+.resetButton{
+    border: none;
+    background-color: darkgray;
+}
+.cancelButton{
+    text-decoration: none;
+    text-align: center;
+}
